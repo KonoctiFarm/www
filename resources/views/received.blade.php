@@ -53,5 +53,14 @@
 		<!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
 		<script src="js/main.js"></script>
 
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="//www.googletagmanager.com/gtag/js?id=UA-109333073-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-109333073-1');
+        </script>
 	</body>
 </html>
